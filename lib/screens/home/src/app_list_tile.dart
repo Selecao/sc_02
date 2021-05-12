@@ -22,7 +22,7 @@ class AppListTile extends StatelessWidget {
       subtitle: Text(
         user.position,
         style: AppTheme.of(context).theme.textTheme.bodyText1?.copyWith(
-              color: AppTheme.of(context).black26,
+              color: AppThemeData.black26,
             ),
       ),
       trailing: IconButton(
@@ -30,7 +30,7 @@ class AppListTile extends StatelessWidget {
         icon: Icon(
           Icons.close,
           size: 28.0,
-          color: AppTheme.of(context).red200,
+          color: AppThemeData.red200,
         ),
       ),
       contentPadding: const EdgeInsets.symmetric(horizontal: 0),

@@ -11,10 +11,10 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       elevation: 1.0,
-      backgroundColor: AppTheme.of(context).white,
+      backgroundColor: AppThemeData.white,
       leading: IconButton(
         icon: Icon(Icons.arrow_back),
-        color: AppTheme.of(context).black.withOpacity(0.6),
+        color: AppThemeData.black.withOpacity(0.6),
         onPressed: () {},
       ),
       title: Text(
@@ -24,7 +24,7 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         IconButton(
           icon: Icon(Icons.more_vert),
-          color: AppTheme.of(context).black.withOpacity(0.6),
+          color: AppThemeData.black.withOpacity(0.6),
           onPressed: () {},
         ),
       ],

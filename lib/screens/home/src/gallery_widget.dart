@@ -78,7 +78,7 @@ class GalleryWidget extends StatelessWidget {
                     'ADD',
                     style:
                         AppTheme.of(context).theme.textTheme.button?.copyWith(
-                              color: AppTheme.of(context).violet700,
+                              color: AppThemeData.violet700,
                             ),
                   ),
                 ),

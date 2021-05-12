@@ -52,12 +52,12 @@ class _FilterWidgetState extends State<FilterWidget> {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4.0),
                   child: ChoiceChip(
-                    selectedColor: AppTheme.of(context).chipBackColor,
+                    selectedColor: AppThemeData.chipBackColor,
                     shape: StadiumBorder(
                       side: BorderSide(
                           color: _value == index
-                              ? AppTheme.of(context).violet200.withAlpha(50)
-                              : AppTheme.of(context).transparentColor,
+                              ? AppThemeData.violet200.withAlpha(50)
+                              : AppThemeData.transparentColor,
                           width: 1),
                     ),
                     label: Text(
@@ -68,8 +68,8 @@ class _FilterWidgetState extends State<FilterWidget> {
                           .bodyText1
                           ?.copyWith(
                               color: _value == index
-                                  ? AppTheme.of(context).violet700
-                                  : AppTheme.of(context).black26),
+                                  ? AppThemeData.violet700
+                                  : AppThemeData.black26),
                     ),
                     selected: _value == index,
                     onSelected: (bool selected) {

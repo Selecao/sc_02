@@ -17,7 +17,7 @@ class AppCircleAvatar extends StatelessWidget {
       child:
           photoUrl == null ? Icon(Icons.camera_alt, size: radius) : Container(),
       backgroundImage: photoUrl != null ? NetworkImage(photoUrl!) : null,
-      backgroundColor: AppTheme.of(context).violet500,
+      backgroundColor: AppThemeData.violet500,
     );
   }
 }

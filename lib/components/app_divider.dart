@@ -14,7 +14,7 @@ class AppDivider extends StatelessWidget {
       endIndent: endIndent,
       thickness: 1.0,
       height: 1.0,
-      color: AppTheme.of(context).gray300,
+      color: AppThemeData.gray300,
     );
   }
 }

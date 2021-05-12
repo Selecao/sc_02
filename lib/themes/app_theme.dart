@@ -72,22 +72,22 @@ class AppThemeData {
         ),
       );
 
-  Color get violet700 => Color(0xFF6200EE);
-  Color get violet500 => Color(0xFF3700B3);
-  Color get violet200 => Color(0xFFBA86FC);
-  Color get teal200 => Color(0xFF03DAC6);
-  Color get red700 => Color(0xFFB00020);
-  Color get red200 => Color(0xFFCF6679);
-  Color get white => Color(0xFFFFFFFF);
-  Color get gray200 => Color(0xFFF5F5F5);
-  Color get gray300 => Colors.grey.shade300;
-  Color get gray600 => Color(0xFF666666);
-  Color get black26 => Colors.black26;
-  Color get gray900 => Color(0xFF121212);
-  Color get black => Color(0xFF000000);
+  static const Color violet700 = Color(0xFF6200EE);
+  static const Color violet500 = Color(0xFF3700B3);
+  static const Color violet200 = Color(0xFFBA86FC);
+  static const Color teal200 = Color(0xFF03DAC6);
+  static const Color red700 = Color(0xFFB00020);
+  static const Color red200 = Color(0xFFCF6679);
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color gray200 = Color(0xFFF5F5F5);
+  static const Color gray300 = Color(0xFFE0E0E0);
+  static const Color gray600 = Color(0xFF666666);
+  static const Color black26 = Colors.black26;
+  static const Color gray900 = Color(0xFF121212);
+  static const Color black = Color(0xFF000000);
 
-  Color get chipBackColor => Color(0xFFF2E7FE);
-  Color get transparentColor => Colors.transparent;
+  static const Color chipBackColor = Color(0xFFF2E7FE);
+  static const Color transparentColor = Colors.transparent;
 
   ButtonStyle get appElevatedButtonStyle => ButtonStyle(
         backgroundColor: MaterialStateProperty.all(violet700),

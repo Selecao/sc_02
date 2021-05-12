@@ -24,11 +24,10 @@ class ProfileWidget extends StatelessWidget {
               ConstrainedBox(
                 constraints: BoxConstraints(maxWidth: 36, maxHeight: 36),
                 child: FloatingActionButton(
-                  backgroundColor: AppTheme.of(context).violet700,
+                  backgroundColor: AppThemeData.violet700,
                   elevation: 0.0,
                   shape: StadiumBorder(
-                    side:
-                        BorderSide(color: AppTheme.of(context).white, width: 1),
+                    side: BorderSide(color: AppThemeData.white, width: 1),
                   ),
                   child: Icon(Icons.add),
                   onPressed: () {},
@@ -47,7 +46,7 @@ class ProfileWidget extends StatelessWidget {
               .theme
               .textTheme
               .caption
-              ?.copyWith(color: AppTheme.of(context).gray600),
+              ?.copyWith(color: AppThemeData.gray600),
         ),
         Container(height: 24.0),
       ],
